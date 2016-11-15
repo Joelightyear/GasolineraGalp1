@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+<link rel="stylesheet" href="css/estilo.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/miscript.js"></script>
+
+<meta charset="ISO-8859-1">
+<title>Gasolinera Galp</title>
+</head>
+<body>
+
+	<div class="row">
+		<div class="col-sm-3"></div>
+		<div class="col-sm-3">
+			<h3>GASOLINERA GALP</h3>
+		</div>
+
+		<div class="col-sm-4">
+			<img
+				src="http://freevector.co/wp-content/uploads/2013/04/galp-energia-2-1.png"
+				width="340" alt="">
+
+		</div>
+		<div class="col-sm-1"></div>
+	</div>
+	
+
+	<div class="row" id=botones id=titulos>
+
+		<div class="col-sm-4">
+		<h4>Pago con tarjeta </h4>
+			<button id="botontarjeta">Tarjeta</button>
+			<br><br>
+			<form id = "formulariotarjeta" action="Validar" method="">
+			<input name ="nombre" type="text" placeholder="Nombre"> 
+			<input name ="apellido" type="text" placeholder="Apellidos"> 
+			<input name ="numtarjeta" type="text" placeholder="Numero de tarjeta"> <br><br>
+			<input name ="validar" type="submit" value="Validar"> 
+			
+			</form>
+		</div>
+		<div class="col-sm-4">
+		<h4>Pago en efectivo </h4>
+			<button id="botonefectivo">Efectivo</button>
+			<br><br>
+			<form id = "formularioefectivo" action="Validar" method="">
+			<input name ="nombre" type="text" placeholder="Nombre"> 
+			<input name ="apellido" type="text" placeholder="Apellidos"> 
+			<input name ="efectivo" type="text" placeholder="Cantidad a pagar"> <br><br>
+			<input name ="validar" type="submit" value="Validar"> 
+			
+			</form>
+		</div>
+		<div class="col-sm-4">
+		<h4> Cancelar </h4>
+		<br><br>
+			<input name ="cancelar" type="submit" value="Cancelar"> 
+			
+			<br><br>
+			<form action="" method="">
+			<br>
+			<br>
+			
+			<textarea rows="9" cols="20">Escriba su sugerencia...</textarea>
+			
+			 <br><br>
+			<input name ="validar" type="submit" value="Enviar tu comentario"> 
+			
+			</form>
+
+		</div>
+
+
+
+	</div>
+</body>
+</html>
